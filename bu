@@ -1,4 +1,6 @@
 #!/bin/bash
+SAVEDIR="/home/werdnanoslen/Games/df_linux/data/save"
+cd $SAVEDIR;
 git add *
 git commit -m "new save"
 git push --progress origin master
